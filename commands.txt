@@ -1,0 +1,500 @@
+  135  clear
+  136  clear
+  137  ls
+  138  ll
+  139  ll -al
+  140  git status
+  141  git init
+  142  git add -all
+  143  git add --all
+  144  git status
+  145  cat .gitignore
+  146  touch a.txt b.txt
+  147  git status
+  148  ls
+  149  rm a.txt
+  150  rm b.txt
+  151  clear
+  152  ls
+  153  knife node list
+  154  knife cookbook create motd
+  155  cd .chef
+  156  knife node list
+  157  sudo su
+  158  sudo
+  159  knife node list
+  160  knife node list
+  161  cd
+  162  cd /downloads
+  163  ls
+  164  cd Downloads
+  165  cd chef-starter
+  166  cd chef-repo
+  167  git init
+  168  git add --all
+  169  git status
+  170  clear
+  171  knife node list
+  172  knife cookbook create motd
+  173  clear
+  174  ls
+  175  knife node list
+  176  chef verify
+  177  clear
+  178  chef generate app
+  179  clear
+  180  knife node list
+  181  cd
+  182  cd mytestapp
+  183  clear
+  184  vagrant up node3 --provider virtualbox
+  185  vagrant ssh node3
+  186  exit
+  187  cd vagrant_getting_started
+  188  vagrant destroy
+  189  vagrant destroy hashicorp/precise64
+  190  vagrant destroy vagrant_getting_started
+  191  ls
+  192  cd ..
+  193  rmdir -fr vagrant_getting_started
+  194  rmdir -f vagrant_getting_started
+  195  rmdir --fr vagrant_getting_started
+  196  rmdir --help
+  197  rmdir  vagrant_getting_started
+  198  cd vagrant_getting_started
+  199  rm vagrantfile
+  200  ls
+  201  cd ..
+  202  rmdir  vagrant_getting_started
+  203  rm -rf  vagrant_getting_started
+  204  clear
+  205  cd mytestapp
+  206  vagrant up --provider virtualbox
+  207  vagrant up node3 --provider virtualbox
+  208  clear
+  209  vagrant ssh node3
+  210  clear
+  211  vagrant ssh node3
+  212  vagrant destroy puppet
+  213  vagrant destroy node1
+  214  vagrant destroy node3
+  215  vagrant destroy default
+  216  clear 
+  217  vagrant up
+  218  vagrant up --provider virtualbox
+  219  clear
+  220  vagrant destroy puppet
+  221  vagrant up --provider virtualbox
+  222  clear
+  223  vagrant reload puppet
+  224  ls
+  225  cd src
+  226  cd ..
+  227  cd src
+  228  ls
+  229  curl -L https://www.opscode.com/chef/install.sh | bash
+  230  sudo su
+  231  cd ..
+  232  ls
+  233  ls
+  234  vagrant destroy puppet
+  235  exit
+  236  vagrant box add envimation/ubuntu-xenial https://atlas.hashicorp.com/envimation/boxes/ubuntu-xenial
+  237  exit
+  238  vagrant --version
+  239  vagrant box list
+  240  cd mytestapp
+  241  clear
+  242  vagrant up  puppet --provider virtualbox
+  243  clear
+  244  vagrant box outdated
+  245  vagrant box update
+  246  vagrant init
+  247  vagrant box add hashicorp/precise64
+  248  vagrant box update hashicorp/precise64
+  249  vagrant box update node1
+  250  vagrant box update node1 --provider virtualbox
+  251  vagrant box outdated --provider virtualbox
+  252  vagrant box outdated --global --provider virtualbox
+  253  vagrant box outdated --global 
+  254  vagrant box update node3
+  255  vagrant box update node3 --provider virtualbox
+  256  vagrant up node1 --provider virtualbox
+  257  vagrant ssh node1
+  258  clear
+  259  vagrant halt suspend node1
+  260  vagrant suspend node1
+  261  vagrant resume node1
+  262  vagrant halt node1
+  263  vagrant resume node1
+  264  vagrant up node1 --provider virtualbox
+  265  vagrant ssh node1
+  266  vagrant reload node1
+  267  vagrant reload --provision
+  268  vagrant reload --provision --provider virtualbox
+  269  vagrant reload node1 --provision
+  270  vagrant ssh node1
+  271  vagrant reload node1 --networking
+  272  vagrant reload node1 
+  273  vagrant reload node1 
+  274  vagrant ssh node1
+  275  vagrant reload node1 
+  276  vagrant ssh node1
+  277  vagrant reload node1 
+  278  vagrant destroy node1
+  279  vagrant up node1 --provider virtualbox
+  280  vagrant ssh
+  281  vagrant ssh node1
+  282  vagrant reload node1 --provision
+  283  vagrant reload node1 --provision
+  284  vagrant ssh node1
+  285  vagrant reload node1 --provision
+  286  vagrant share node1
+  287  vagrant ssh node1
+  288  vagrant ssh node1
+  289  vagrant reload node1 --provision
+  290  vagrant reload node1 --provision
+  291  vagrant ssh node1
+  292  vagrant reload node1 --provision
+  293  vagrant reload node1 --provision
+  294  vagrant reload node1 --provision
+  295  vagrant reload node1 --provision --debug > vagrant.log 2>&1
+  296  vagrant reload node1 
+  297  vagrant ssh node1
+  298  vagrant reload node1 --provision
+  299  vagrant reload node1 --provision
+  300  vagrant ssh node1
+  301  exit
+  302  vagrant box list
+  303  ifconfig -a
+  304  cd mytestapp
+  305  vagrant up node1 --provider virtualbox
+  306  vagrant provision node1
+  307  vagrant ssh node1
+  308  vagrant reload node1 --provision
+  309  vagrant ssh node1
+  310  vagrant ssh node1
+  311  vagrant reload node1 --provision
+  312  vagrant ssh node1
+  313  vagrant plugin list
+  314  vagrant destroy node1
+  315  exit
+  316  vagrant port list
+  317  cd mytestapp
+  318  vagrant up node1 --provider virtualbox
+  319  vagrant reload node1
+  320  vagrant ssh node1
+  321  vagrant destroy node1
+  322  vagrant up node1 --provider virtualbox
+  323  vagrant ssh node1
+  324  vagrant up puppet
+  325  vagrant reload puppet
+  326  vagrant ssh puppet
+  327  vagrant ssh puppet
+  328  vagrant reload puppet --provision
+  329  vagrant provision node1
+  330  vagrant ssh node1
+  331  vagrant provision node1
+  332  vagrant provision node1
+  333  vagrant provision node1
+  334  vagrant provision node1
+  335  vagrant ssh node1
+  336  vagrant provision puppet
+  337  vagrant ssh puppet
+  338  vagrant provision puppet
+  339  vagrant provision puppet
+  340  vagrant ssh puppet
+  341  exit
+  342  mkdir tact-devops
+  343  cd
+  344  mkdir tact-devops
+  345  clear
+  346  cd tact-devops
+  347  git status
+  348  cd ..
+  349  git config --global user.name "AJITH KUMAR A J"
+  350  git config --global user.email "ajithkumaraj@gmail.com"
+  351  git config --flobal core.autocrlf true
+  352  git config --flobal core.safecrlf true
+  353  clear
+  354  cd tact-devops
+  355  clear
+  356  git init
+  357  clear
+  358  vi hello.rb
+  359  more hello.rb
+  360  ls
+  361  git status
+  362  git add hello.rb
+  363  git commit -m "First Commit"
+  364  git status
+  365  vi hello.rb
+  366  more hello.rb
+  367  git status
+  368  git add hello.rb
+  369  git status
+  370  git commit -m "Second Commit"
+  371  git status
+  372  git status
+  373  git add hello.rb
+  374  git status
+  375  git status
+  376  git commit -m "Added a default value"
+  377  git status
+  378  git add .
+  379  git status
+  380  git commit -m "Added a comment"
+  381  git log
+  382  clear
+  383  git log --pretty=oneline
+  384  man git-log
+  385  git log --pretty=oneline
+  386  git diff hello.rb
+  387  git diff hello.rb
+  388  git status
+  389  git checkout hello.rb
+  390  git diff hello.rb
+  391  clear
+  392  git reset --soft HEAD^
+  393  git log --oneline
+  394  git status
+  395  git reset HEAD .
+  396  git status
+  397  cat hello.rb
+  398  more a
+  399  clear
+  400  git log --oneline
+  401  git reset --hard HEAD^
+  402  cat hello.rb
+  403  git status
+  404  git commit -a -m "files added"
+  405  git status
+  406  git commit -a -m "files added"
+  407  git add .
+  408  git status
+  409  git commit -a -m "files added"
+  410  git log --oneline
+  411  git reset --hard HEAD^
+  412  git log --oneline
+  413  git status
+  414  ls
+  415  touch a b c d
+  416  ls
+  417  touch a b c d
+  418  git add a b
+  419  git commit -m "a b files added"
+  420  got add c d
+  421  git add c d
+  422  ls
+  423  git reset --hard HEAD^
+  424  ls
+  425  clear
+  426  git remote add origin https://github.com/AJITHKUMARAJ/ajith-sample.git
+  427  git remote -v
+  428  git push -u origin master
+  429  git push -u origin master
+  430  git fetch -all
+  431  git fetch --all
+  432  git push -u origin master
+  433  git pull -q
+  434  git push -u origin master
+  435  git pull
+  436  git push -u origin master
+  437  git pull origin master
+  438  git push -u origin master
+  439  git push origin master
+  440  git push -f origin master
+  441  clear
+  442  git remote -v
+  443  ssh -T git@github.com
+  444  git remote -v
+  445  git remote add origin git@github.com:AJITHPC/ajith-sample.git
+  446  git remote -v
+  447  git push -f origin master
+  448  cd ..
+  449  cd mytestapp
+  450  vagrant destroy node1
+  451  vagrant destroy puppet
+  452  exit
+  453  cd tact-devops
+  454  ls
+  455  git remote -v
+  456  cd ..
+  457  cd mytestapp
+  458  vagrant up node1 --provider virtualbox
+  459  vagrant destroy puppet
+  460  exit
+  461  my testapp
+  462  cd mytestapp
+  463  clear
+  464  vagrant up puppet --provider virtualbox
+  465  vagrant destroy node1
+  466  exit
+  467  cd mytestapp
+  468  vagrant up node1
+  469  vagrant up node1 --provider virtualbox
+  470  clear
+  471  vagrant ssh node1
+  472  vagrant up puppet --provider virtualbox
+  473  vagrant destroy node1
+  474  vagrant destroy puppet
+  475  vagrant up puppet --provider virtualbox
+  476  clear
+  477  exit
+  478  cd tact-devops
+  479  ls
+  480  ll -al
+  481  ls -al
+  482  git pull
+  483  ls
+  484  git remote -v
+  485  git config --list
+  486  git version
+  487  vi hello.rb
+  488  cd ..
+  489  cd tact-devops
+  490  clear
+  491  cd ..
+  492  cd mytestapp
+  493  ls
+  494  clear
+  495  vagrant ssh puppet
+  496  clear
+  497  vagrant halt 
+  498  vagrant halt puppet
+  499  vagrant halt puppet
+  500  vagrant halt node1
+  501  cd mytestapp
+  502  vagrant up puppet
+  503  clear
+  504  cd ..
+  505  cd tact-devops
+  506  ls
+  507  more hello.rb
+  508  cat hello.rb
+  509  git status
+  510  git commit -a -m "Windows User Edits"
+  511  git status
+  512  git push
+  513  git status
+  514  git log --oneline
+  515  cd ..
+  516  ls
+  517  cd mytestapp
+  518  vagrant ssh pupet
+  519  vagrant ssh puppet
+  520  clear
+  521  cd ..
+  522  cd tact-devops
+  523  vi hello.rb
+  524  vi hello.rb
+  525  clear
+  526  git pull
+  527  git status
+  528  rm .hello.rb.swp
+  529  clear
+  530  ls
+  531  cat hello.rb
+  532  git status
+  533  git pull
+  534  git branch
+  535  git branch dev
+  536  git branch
+  537  git status
+  538  clear
+  539  git checkout dev
+  540  ls
+  541  vi test.rb
+  542  git log --oneline
+  543  git checkout master
+  544  ls
+  545  git checkout dev
+  546  clear
+  547  git status
+  548  git add -all
+  549  git add -all
+  550  git add --all
+  551  git commit -m "dev commit"
+  552  git status
+  553  git log --oneline
+  554  git checkout master
+  555  ls
+  556  git checkout dev
+  557  ls
+  558  git checkout master
+  559  git merge dev test.rb
+  560  git merge dev
+  561  ls
+  562  git log --oneline
+  563  clear
+  564  git branch
+  565  git checkout dev
+  566  git branch -d dev
+  567  git checkout master
+  568  git branch -d dev
+  569  git checkout -b admin
+  570  touch admin.txt
+  571  touch admin.pem admin.java
+  572  ll
+  573  git checkout master
+  574  ls
+  575  git checkout admin
+  576  ls
+  577  clear
+  578  git add .
+  579  git commit -m "Admin Branch Commit"
+  580  ls
+  581  clear
+  582  git checkout master
+  583  ls
+  584  touch master.pem
+  585  git commit -a -m "Master Branch Commit"
+  586  git log --oneline
+  587  git add .
+  588  git commit -m "Master Branch Commit"
+  589  git log --oneline
+  590  git merge admin
+  591  git log --oneline
+  592  git checkout -b cart
+  593  git push
+  594  git push origin cart
+  595  touch cart.rb
+  596  git add .
+  597  git commit -m "Cart.rb added"
+  598  git push origin cart
+  599  history
+  600  history > commands.txt
+  601  ls
+  602  cat commands.txt
+  603  git pull origin cart
+  604  git status
+  605  git add .
+  606  git commit -m "commands"
+  607  git push origin cart
+  608  git status
+  609  clear
+  610  git branch
+  611  touch a.txt
+  612  git checkout master
+  613  git branch -d cart
+  614  git branch -D cart
+  615  git branch
+  616  git branch -b
+  617  git remote show origin
+  618  git remote prune origin
+  619  git remote show origin
+  620  git remote prune origin cart
+  621  git remote show origin
+  622  ls
+  623  git pull
+  624  git status
+  625  rm a.txt
+  626  ls
+  627  git status
+  628  clear
+  629  git tag
+  630  git tag -a v0.0.1 -m "First Version"
+  631  git tag
+  632  git push --tags
+  633  ls
+  634  history > commands.txt
